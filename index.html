@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-16">
+            <nav class="flex justify-between items-center mb-8">
+                <h1 class="text-3xl font-bold text-blue-600">John Doe</h1>
+                <ul class="flex space-x-6">
+                    <li><a href="#bio" class="text-blue-600 hover:text-blue-800 transition duration-300">Bio</a></li>
+                    <li><a href="#projects" class="text-blue-600 hover:text-blue-800 transition duration-300">Projects</a></li>
+                    <li><a href="#skills" class="text-blue-600 hover:text-blue-800 transition duration-300">Skills</a></li>
+                    <li><a href="#services" class="text-blue-600 hover:text-blue-800 transition duration-300">Services</a></li>
+                    <li><a href="#blog" class="text-blue-600 hover:text-blue-800 transition duration-300">Blog</a></li>
+                    <li><a href="#testimonials" class="text-blue-600 hover:text-blue-800 transition duration-300">Testimonials</a></li>
+                    <li><a href="#contact" class="text-blue-600 hover:text-blue-800 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="bio" class="mb-16 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-lg">
+                <div class="flex flex-col md:flex-row items-center">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a" alt="John Doe" class="w-48 h-48 rounded-full object-cover mb-6 md:mb-0 md:mr-8">
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-4 text-blue-800">About Me</h2>
+                        <p class="text-gray-700 leading-relaxed">As a passionate Data Analyst with over 5 years of experience, I specialize in transforming complex datasets into actionable insights. My expertise lies in data visualization, statistical analysis, and developing predictive models that drive business decisions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="mb-16">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Featured Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="E-commerce Analytics" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">E-commerce Analytics</h3>
+                        <p class="text-gray-700 mb-4">Developed a comprehensive dashboard to analyze customer behavior and sales trends, resulting in a 25% increase in conversion rates.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3" alt="Financial Forecasting" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Financial Forecasting</h3>
+                        <p class="text-gray-700 mb-4">Created a machine learning model to predict market trends, achieving 92% accuracy in quarterly revenue forecasts.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d" alt="Healthcare Data Analysis" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Healthcare Data Analysis</h3>
+                        <p class="text-gray-700 mb-4">Analyzed patient data to optimize resource allocation, reducing wait times by 35% and improving patient satisfaction scores.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Market Segmentation" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Market Segmentation</h3>
+                        <p class="text-gray-700 mb-4">Conducted in-depth market segmentation analysis, leading to a 40% increase in targeted marketing efficiency.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0" alt="Supply Chain Optimization" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Supply Chain Optimization</h3>
+                        <p class="text-gray-700 mb-4">Developed a predictive model for inventory management, reducing stockouts by 50% and improving overall supply chain efficiency.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Customer Churn Analysis" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Customer Churn Analysis</h3>
+                        <p class="text-gray-700 mb-4">Implemented a churn prediction model, enabling proactive retention strategies that reduced customer churn by 30%.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="mb-16 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-lg">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Skills & Expertise</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-chart-bar text-4xl text-blue-600 mb-2"></i>
+                        <span class="text-gray-700">Data Visualization</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-calculator text-4xl text-blue-600 mb-2"></i>
+                        <span class="text-gray-700">Statistical Analysis</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <i class="fab fa-python text-4xl text-blue-600 mb-2"></i>
+                        <span class="text-gray-700">Python</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <i class="fas fa-database text-4xl text-blue-600 mb-2"></i>
+                        <span class="text-gray-700">SQL</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="mb-16 bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-lg">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Services I Offer</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="flex flex-col items-center p-6 bg-white bg-opacity-50 rounded-lg shadow-md">
+                        <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Data Analysis</h3>
+                        <p class="text-gray-700 text-center">In-depth analysis of your data to uncover trends and insights.</p>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-white bg-opacity-50 rounded-lg shadow-md">
+                        <i class="fas fa-brain text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Machine Learning</h3>
+                        <p class="text-gray-700 text-center">Develop predictive models to forecast future trends.</p>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-white bg-opacity-50 rounded-lg shadow-md">
+                        <i class="fas fa-desktop text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Dashboard Creation</h3>
+                        <p class="text-gray-700 text-center">Design interactive dashboards for easy data visualization.</p>
+                    </div>
+                    <div class="flex flex-col items-center p-6 bg-white bg-opacity-50 rounded-lg shadow-md">
+                        <i class="fas fa-chalkboard-teacher text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Data Analysis Teaching</h3>
+                        <p class="text-gray-700 text-center">Provide comprehensive training on data analysis techniques and tools.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog" class="mb-16">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Personal Blog</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" alt="Blog Post 1" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">The Future of Data Analytics</h3>
+                        <p class="text-gray-700 mb-4">Exploring emerging trends and technologies shaping the future of data analytics.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Read More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Blog Post 2" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Mastering Data Visualization</h3>
+                        <p class="text-gray-700 mb-4">Tips and techniques for creating impactful data visualizations that tell a story.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Read More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg transition duration-300 hover:shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3" alt="Blog Post 3" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-700">Ethical Considerations in Data Science</h3>
+                        <p class="text-gray-700 mb-4">Discussing the ethical challenges and responsibilities in the field of data science.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Read More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials" class="mb-16">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Client Testimonials</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg">
+                        <p class="text-gray-700 mb-4">"John's data analysis skills are top-notch. His insights helped us increase our revenue by 30% in just 3 months!"</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" alt="Client 1" class="w-12 h-12 rounded-full mr-4 object-cover">
+                                <div>
+                                    <p class="font-semibold text-blue-700">Sarah Johnson</p>
+                                    <p class="text-sm text-gray-600">CEO, TechSmart</p>
+                                </div>
+                            </div>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg">
+                        <p class="text-gray-700 mb-4">"Working with John was a game-changer for our startup. His data-driven approach helped us make informed decisions."</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" alt="Client 2" class="w-12 h-12 rounded-full mr-4 object-cover">
+                                <div>
+                                    <p class="font-semibold text-blue-700">Michael Chen</p>
+                                    <p class="text-sm text-gray-600">Founder, DataDrive</p>
+                                </div>
+                            </div>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg">
+                        <p class="text-gray-700 mb-4">"John's financial forecasting model was incredibly accurate. It's been invaluable for our long-term planning."</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" alt="Client 3" class="w-12 h-12 rounded-full mr-4 object-cover">
+                                <div>
+                                    <p class="font-semibold text-blue-700">Emily Rodriguez</p>
+                                    <p class="text-sm text-gray-600">CFO, GrowthCorp</p>
+                                </div>
+                            </div>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-lg">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Get in Touch</h2>
+                <form class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-gray-700 mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-400" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="mt-16 text-center text-gray-600">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const emailInput = document.getElementById('email');
+        emailInput.addEventListener('input', function() {
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailPattern.test(this.value)) {
+                this.setCustomValidity('');
+            } else {
+                this.setCustomValidity('Please enter a valid email address');
+            }
+        });
+    </script>
+</body>
+</html>
